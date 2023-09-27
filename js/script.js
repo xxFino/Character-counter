@@ -9,7 +9,7 @@
     const init= () => {
         const formElement = document.querySelector(".js-form");
 
-        formElement.addEventListener("keyup", counter)
+        formElement.addEventListener("input", counter)
     };
 
     init();
