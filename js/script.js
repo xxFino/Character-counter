@@ -3,7 +3,7 @@
         const input = document.querySelector(".js-input");
         const lenght = document.querySelector(".js-output");       
 
-        lenght.textContent = input.value.length;
+        lenght.innerHTML = input.value.length;
     }   
     
     const init= () => {
